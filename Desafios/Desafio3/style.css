@@ -1,0 +1,106 @@
+@charset "UTF-8";
+@font-face {
+    font-family: face;
+    src: url(fontes/idroid.otf) format(opentype);
+    font-style: normal;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0px 0px 0px 0px;
+    padding: 0px;
+    background-color: rgb(172, 235, 172);
+
+}
+main{
+    padding: 15px;
+    font-size: 0.9em;
+    background-color: white;
+    width: 850px;
+    margin: 0px auto;
+    border-radius: 0px 0px 9px 9px;
+}
+header{
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.685);
+    color: white;
+    background-image: linear-gradient(to bottom, rgb(1, 206, 1), rgb(0, 102, 0));
+    height: 200px;
+    margin:0px;
+}
+#teste{
+    width:500px;
+    text-align: center;
+    padding: auto;
+    margin: auto;
+    padding-top: 40px
+}
+#titulo{
+    padding-top: 30px;
+    text-align: center;
+    width:500px;
+    margin: 0px auto;
+}
+nav{
+    padding-top:5px;
+    padding-left: 10px;
+    margin: 10;
+}
+a{
+    margin-right: 7px;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    padding:5px;
+}
+a:hover{
+    color: darkgreen;
+    background-color: lightgreen;
+    padding:5px;
+    border-radius: 5px;
+}
+h1 {
+    margin:0px;
+}
+h2{
+    font-family: face;
+    color: darkgreen;
+}
+
+h3{
+    font-family: face;
+    color: darkgreen;
+    background-image: linear-gradient(to right, lightgreen, rgb(255, 255, 255));
+    padding: 5px;
+}
+img{
+    display:block;
+    margin: 5px auto 5px auto;
+}
+#lista{
+    padding: 5px 10px;
+    background-color: rgb(213, 247, 213);
+    font-size: 0.9em;
+    border-radius: 0px 0px 8px 8px;
+}
+h4{
+    background-color:darkgreen;
+    color: white;
+    padding: 10px  10px 10px  10px;
+    margin: 10px 0px 0px 0px;
+    border-radius: 8px 8px 0px 0px;
+}
+
+#lista1{
+    display: inline-block;
+    width: 45%;
+}
+#lista2{
+    display: inline-block;
+    width: 50%;
+}
+footer{
+    background-color: darkgreen;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px;
+}

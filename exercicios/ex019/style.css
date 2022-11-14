@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+/*
+
+Tudo que em HTML for ID em CSS vira #
+Tudo que em HTML for Clas em CSS vira .
+
+*/
+
+body{
+    background-color: rgba(221, 205, 224, 0.658);
+    font-family: sans-serif;
+}
+h1{
+    color: #33003d;
+}
+
+h1#principal {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color:blueviolet;
+}
+
+h1#primeiro{
+    background-color: blueviolet;
+    color: aliceblue;
+    text-align:center;
+    font: normal 20px sans-serif;
+}
+
+h2{
+    color: #33003d;
+}
+
+.basico{
+    background-color: blueviolet;
+    color:white
+}
+.intermediario{
+    background-color: black;
+    color:white
+}
+.avancado{
+    background-color: greenyellow;
+    color:black;
+}
+
+.destaque{
+    background-color:rgba(255, 255, 0, 0.644);
+}
