@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário sem a TAG INPUT</h1>
+
+    <form action="cadastro.php" method="post">
+    <p>
+        <label for="estado">Estados</label>
+
+    <select name="estado" id="iestado">
+
+        <optgroup label="Região Nordeste">
+            <option value="BA">Bahia</option>
+            <option value="CE" selected>Ceará</option>
+            <option value="PI">Piauí</option>
+        </otpgroup>
+
+        <optgroup label="Sul">
+            <option value="PR">Paraná</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="SC">Santa Catarina</option>
+        </otpgroup> <br>
+    </select>    
+        <p>
+            <label for="iprof">Profissão</label>
+            <input type="text" name="prf" id="iprof" list="lstprof">
+            <datalist id="lstprof">
+                <option value="ADM">Administrador</option>
+                <option value="TST">Técnico em Segurança do Trabalho</option>
+                <option value="OpTl">Operador de Telemarketing</option>
+                <option value="Ped">Predeiro</option>
+            </datalist>
+        </p>
+
+    </p>
+        
+    <p>
+        <label for="imsg">Mensagem</label> <br>
+        <textarea name="msg" id="imsg" cols="30" rows="5">Digita ai a tua mensagem do jeito que tu quer...</textarea>
+
+    </p>
+    
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </p>
+</form>
+
+</body>
+</html>
